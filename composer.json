@@ -11,10 +11,11 @@
         }
     ],
     "require": {
-
+        "morilog/jalali": "^v3.4",
+        "predis/predis": "^v2.2",
+        "prettus/l5-repository": "^2.9"
     },
     "require-dev": {
-
     },
     "autoload": {
         "psr-4": {
