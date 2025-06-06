@@ -1,9 +1,6 @@
 {
     "name": "larassn/base",
     "description": "",
-    "type": "library",
-    "version": "1.0",
-    "license": "proprietary",
     "authors": [
         {
             "name": "Ali SSN",
@@ -17,9 +14,16 @@
     },
     "require-dev": {
     },
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+            }
+        }
+    },
     "autoload": {
         "psr-4": {
-            "Modules\\Base\\": "src/",
+            "Modules\\Base\\": "app/",
             "Modules\\Base\\Database\\Factories\\": "database/factories/",
             "Modules\\Base\\Database\\Seeders\\": "database/seeders/"
         }
@@ -28,13 +32,5 @@
         "psr-4": {
             "Modules\\Base\\Tests\\": "tests/"
         }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Modules\\Base\\Providers\\BaseServiceProvider"
-            ]
-        }
-    },
-    "minimum-stability": "stable"
+    }
 }
