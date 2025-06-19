@@ -8,6 +8,7 @@
         }
     ],
     "require": {
+        "coolsam/modules": "^4.2",
         "morilog/jalali": "^v3.4",
         "predis/predis": "^v2.2",
         "prettus/l5-repository": "^2.9"
