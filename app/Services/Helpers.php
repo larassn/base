@@ -32,6 +32,18 @@ try {
             }
         }
     }
+    if (! function_exists('enumComment')) {
+        function enumComment(string $enumClass): string
+        {
+            if (!enum_exists($enumClass)) {
+                return '';
+            }
+
+            return collect($enumClass::cases())
+                ->map(fn($case) => "{$case->value}: {$case->name}")
+                ->implode(', ');
+        }
+    }
 
 }
 catch (\Exception $e) {
