@@ -8,16 +8,15 @@
         }
     ],
     "require": {
-        "coolsam/modules": "^4.2",
         "mikebronner/laravel-model-caching": "^12.0",
         "morilog/jalali": "^v3.4",
-        "predis/predis": "^v2.2",
-        "prettus/l5-repository": "^2.9",
+        "predis/predis": "^3.3",
+        "prettus/l5-repository": "^3.0",
         "spatie/laravel-settings": "^3.4"
     },
     "require-dev": {
-        "alissn/laravel-dumper": "^3.0",
-        "laravel/boost": "^1.0"
+        "glhd/laravel-dumper": "^3.0",
+        "laravel/boost": "^2.0"
     },
     "extra": {
         "laravel": {
